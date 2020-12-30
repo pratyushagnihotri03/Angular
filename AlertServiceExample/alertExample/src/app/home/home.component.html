@@ -1,0 +1,16 @@
+<h1>Angular 9 Alerts Examples</h1>
+
+<h4>Service directly in button Click</h4>
+<button class="btn btn-success m-1" (click)="alertService.success('Success!!', options)">Success</button>
+<button class="btn btn-danger m-1" (click)="alertService.error('Error :(', options)">Error</button>
+<button class="btn btn-info m-1" (click)="alertService.info('Some info....', options)">Info</button>
+<button class="btn btn-warning m-1" (click)="alertService.warn('Warning: ...', options)">Warn</button>
+<button class="btn btn-outline-dark m-1" (click)="alertService.clear()">Clear</button>
+
+<h4>Method of call alert service</h4>
+<button class="btn btn-success m-1" (click)="success()">Success</button>
+<button class="btn btn-danger m-1" (click)="error()">Error</button>
+<button class="btn btn-info m-1" (click)="info()">Info</button>
+<button class="btn btn-warning m-1" (click)="warn()">Warn</button>
+<button class="btn btn-outline-dark m-1" (click)="clear()">Clear</button>
+

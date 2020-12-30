@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular9-rest-crud-apis": {
+      "hosting": {
+        "angular-example": [
+          "angular9-rest-crud-apis"
+        ]
+      }
+    }
+  }
+}
